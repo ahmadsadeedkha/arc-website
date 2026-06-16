@@ -1,0 +1,50 @@
+export const partners = [
+  {
+    id: 1,
+    name: "Lyallpur Galleria",
+    logo: "/images/partners/lyallpur-galleria.png",
+  },
+  { id: 2, name: "China Co-op", logo: "/images/partners/china-coop.png" },
+  {
+    id: 3,
+    name: "Zhongkang Shengding Group",
+    logo: "/images/partners/zhongkang.png",
+  },
+  { id: 4, name: "Henian TGC China", logo: "/images/partners/henian.png" },
+  { id: 5, name: "Axis Pharmaceuticals", logo: "/images/partners/axis.png" },
+  {
+    id: 6,
+    name: "Novelty Condos",
+    logo: "/images/partners/novelty-condos.png",
+  },
+  {
+    id: 7,
+    name: "Nishat Mills Ltd",
+    logo: "/images/partners/nishat-mills.png",
+  },
+  { id: 8, name: "AsiaInfo", logo: "/images/partners/asiainfo.png" },
+  { id: 9, name: "CRRC", logo: "/images/partners/crrc.png" },
+  {
+    id: 10,
+    name: "Nishat Chunian Ltd",
+    logo: "/images/partners/nishat-chunian.png",
+  },
+  { id: 11, name: "FWO", logo: "/images/partners/fwo.png" },
+  {
+    id: 12,
+    name: "China Zhongtie",
+    logo: "/images/partners/china-zhongtie.png",
+  },
+  { id: 13, name: "Hyundai", logo: "/images/partners/hyundai.png" },
+  { id: 14, name: "CSET", logo: "/images/partners/cset.png" },
+  { id: 15, name: "MCC Real Estate", logo: "/images/partners/mcc.png" },
+  { id: 16, name: "ARY Laguna", logo: "/images/partners/ary-laguna.png" },
+  {
+    id: 17,
+    name: "Classic Living",
+    logo: "/images/partners/classic-living.png",
+  },
+  { id: 18, name: "Crestex", logo: "/images/partners/crestex.png" },
+  { id: 19, name: "AR Apparels", logo: "/images/partners/ar-apparels.png" },
+  { id: 20, name: "Master City", logo: "/images/partners/master-city.png" },
+];
