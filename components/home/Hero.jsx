@@ -56,7 +56,7 @@ export default function Hero() {
             <span className="text-arc-gold"> Structures,</span>
             <br />
             Creating
-            <span className="text-arc-orange"> Trust.</span>
+            <span className="text-arc-gold"> Trust.</span>
           </motion.h1>
 
           {/* Subheading */}

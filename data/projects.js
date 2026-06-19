@@ -18,7 +18,7 @@ export const projects = [
     location: "Value Addition City, Faisalabad",
     area: "32,000 Sft Civil Works of Building",
     category: "industrial",
-    images: ["/images/projects/axis-1.jpg", "/images/projects/axis-2.jpg"],
+    images: ["/images/projects/axis-1.png", "/images/projects/axis-2.jpg"],
     description:
       "Civil works for a pharmaceutical facility at Value Addition City, Faisalabad.",
   },

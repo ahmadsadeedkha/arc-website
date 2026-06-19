@@ -62,9 +62,12 @@ export default function AboutPage() {
               className="relative"
             >
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-arc-blue/10 relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-arc-blue to-arc-dark flex items-center justify-center">
-                  <span className="text-8xl opacity-20">🏗️</span>
-                </div>
+                <Image
+                  src="/images/intro-img.png"
+                  alt="Introduction"
+                  fill
+                  className="object-cover"
+                />
               </div>
               {/* Decorative box */}
               <div className="absolute -bottom-6 -right-6 w-32 h-32 border-4 border-arc-gold rounded-xl -z-10" />
@@ -123,11 +126,12 @@ export default function AboutPage() {
               className="relative order-2 lg:order-1"
             >
               <div className="aspect-[3/4] max-w-sm mx-auto rounded-2xl overflow-hidden bg-arc-blue relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-arc-blue to-arc-dark flex items-center justify-center">
-                  <span className="text-8xl opacity-20">👤</span>
-                </div>
-                {/* Swap with real CEO image later */}
-                {/* <Image src="/images/ceo.jpg" alt="CEO" fill className="object-cover" /> */}
+                <Image
+                  src="/images/ceo.png"
+                  alt="CEO"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-arc-gold text-white px-6 py-4 rounded-xl shadow-lg">
                 <div className="text-2xl font-black">15+</div>

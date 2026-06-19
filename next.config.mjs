@@ -7,9 +7,6 @@ const __dirname = dirname(__filename);
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactCompiler: true,
-  turbopack: {
-    root: __dirname,
-  },
 };
 
 export default nextConfig;
