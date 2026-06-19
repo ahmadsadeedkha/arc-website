@@ -30,7 +30,7 @@ export default function ContactPage() {
     <main className="min-h-screen">
       {/* Hero Banner */}
       <section className="bg-arc-dark py-32 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-arc-dark via-arc-blue/80 to-arc-dark" />
+        <div className="absolute inset-0 bg-linear-to-br from-arc-dark via-arc-blue/80 to-arc-dark" />
         <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-arc-orange" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -70,7 +70,7 @@ export default function ContactPage() {
                 className="bg-gray-50 rounded-2xl p-6 border border-gray-100"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-arc-blue rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-arc-blue rounded-lg flex items-center justify-center shrink-0">
                     <Mail size={18} className="text-white" />
                   </div>
                   <h3 className="font-bold text-arc-blue">Email</h3>
@@ -93,7 +93,7 @@ export default function ContactPage() {
                 className="bg-gray-50 rounded-2xl p-6 border border-gray-100"
               >
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-arc-blue rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-arc-blue rounded-lg flex items-center justify-center shrink-0">
                     <MapPin size={18} className="text-white" />
                   </div>
                   <h3 className="font-bold text-arc-blue">Faisalabad Office</h3>
@@ -129,7 +129,7 @@ export default function ContactPage() {
                 className="bg-gray-50 rounded-2xl p-6 border border-gray-100"
               >
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-arc-blue rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-arc-blue rounded-lg flex items-center justify-center shrink-0">
                     <MapPin size={18} className="text-white" />
                   </div>
                   <h3 className="font-bold text-arc-blue">Lahore Office</h3>

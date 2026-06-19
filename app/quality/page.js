@@ -11,7 +11,7 @@ export default function QualityPage() {
 
       {/* Hero Banner */}
       <section className="bg-arc-dark py-32 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-arc-dark via-arc-blue/80 to-arc-dark" />
+        <div className="absolute inset-0 bg-linear-to-br from-arc-dark via-arc-blue/80 to-arc-dark" />
         <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-arc-orange" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -83,7 +83,7 @@ export default function QualityPage() {
               >
                 <CheckCircle
                   size={22}
-                  className="text-arc-gold flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform duration-300"
+                  className="text-arc-gold shrink-0 mt-0.5 group-hover:scale-110 transition-transform duration-300"
                 />
                 <p className="text-gray-600 leading-relaxed">{item}</p>
               </motion.div>
