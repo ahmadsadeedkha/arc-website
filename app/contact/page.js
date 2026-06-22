@@ -19,11 +19,18 @@ export default function ContactPage() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // For now just show success state
-    // Later you can hook this up to EmailJS or any backend
-    setSubmitted(true);
+  const handleSubmit = async () => {
+    const response = await fetch("https://formspree.io/f/xaqgyeey", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      setSubmitted(true);
+    } else {
+      alert("Something went wrong. Please try again.");
+    }
   };
 
   return (

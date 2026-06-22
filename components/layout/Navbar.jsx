@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -34,23 +35,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="flex flex-col leading-tight">
-              <span
-                className={`text-xl font-black tracking-wide transition-colors duration-300 ${
-                  scrolled ? "text-arc-blue" : "text-white"
-                }`}
-              >
-                ARC
-              </span>
-              <span
-                className={`text-xs font-medium tracking-widest transition-colors duration-300 ${
-                  scrolled ? "text-arc-gold" : "text-arc-gold"
-                }`}
-              >
-                CONSTRUCTION
-              </span>
-            </div>
+          <Link href="/">
+            <Image
+              src="/images/logo1.png"
+              alt="Ahmad Rafique Construction Company"
+              width={180}
+              height={70}
+              className="object-contain"
+            />
           </Link>
 
           {/* Desktop Nav */}
