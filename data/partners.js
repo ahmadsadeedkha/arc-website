@@ -47,8 +47,16 @@ export const partners = [
   { id: 18, name: "Crestex", logo: "/images/partners/crestex.svg" },
   { id: 19, name: "AR Apparels", logo: "/images/partners/ar-apparels.svg" },
   { id: 20, name: "Master City", logo: "/images/partners/master-city.svg" },
-  { id: 21, name: "", logo: "/images/partners/logo-2.svg" },
-  { id: 22, name: "", logo: "/images/partners/logo-4.svg" },
-  { id: 23, name: "", logo: "/images/partners/logo-9.svg" },
-  { id: 24, name: "", logo: "/images/partners/logo-12.svg" },
+  {
+    id: 21,
+    name: "Green Environment",
+    logo: "/images/partners/green-environment.svg",
+  },
+  { id: 22, name: "Kashmir Ghee", logo: "/images/partners/kashmir-ghee.svg" },
+  {
+    id: 23,
+    name: "Gatwala Commercial Hub",
+    logo: "/images/partners/gatwala.svg",
+  },
+  { id: 24, name: "Petro China", logo: "/images/partners/petrochina.svg" },
 ];
