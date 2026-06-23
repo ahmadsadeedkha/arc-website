@@ -21,7 +21,7 @@ export const projects = [
     status: "completed",
     category: "commercial",
     images: [
-      "/images/projects/gatwala-1.png",
+      "/images/projects/gatwala-1.svg",
       "/images/projects/gatwala-2.jpg",
     ],
     description:
@@ -35,7 +35,7 @@ export const projects = [
     status: "completed",
     category: "industrial",
     images: [
-      "/images/projects/crescent-1.jpg",
+      "/images/projects/crescent-1.svg",
       "/images/projects/crescent-2.jpg",
     ],
     description:
@@ -49,7 +49,7 @@ export const projects = [
     status: "completed",
     category: "industrial",
     images: [
-      "/images/projects/nishat-mills-1.jpg",
+      "/images/projects/nishat-mills-1.svg",
       "/images/projects/nishat-mills-2.jpg",
     ],
     description:
@@ -63,7 +63,7 @@ export const projects = [
     status: "completed",
     category: "industrial",
     images: [
-      "/images/projects/hyundai-1.jpg",
+      "/images/projects/hyundai-1.svg",
       "/images/projects/hyundai-2.jpg",
     ],
     description:
@@ -88,7 +88,7 @@ export const projects = [
     status: "completed",
     category: "infrastructure",
     images: [
-      "/images/projects/ary-laguna-1.jpg",
+      "/images/projects/ary-laguna-1.svg",
       "/images/projects/ary-laguna-2.jpg",
     ],
     description:
@@ -104,8 +104,8 @@ export const projects = [
     status: "ongoing",
     category: "residential",
     images: [
-      "/images/projects/novelty-1.jpg",
-      "/images/projects/novelty-2.jpg",
+      "/images/projects/novelty-2.svg",
+      "/images/projects/novelty-1.svg",
     ],
     description:
       "A premium residential condominium complex at Vady-e-Sitara, Faisalabad, bringing contemporary urban living with landscaped amenities and modern apartment units.",
@@ -120,8 +120,8 @@ export const projects = [
     status: "inhand",
     category: "commercial",
     images: [
-      "/images/projects/classic-atrium-1.jpg",
       "/images/projects/classic-atrium-2.jpg",
+      "/images/projects/classic-atrium-1.svg",
     ],
     description:
       "A prestigious 17-story mixed-use tower in Bahria Town, Lahore. Classic Atrium will redefine the skyline with high-end commercial and residential floors under ARC's full turnkey management.",
@@ -134,8 +134,9 @@ export const projects = [
     status: "inhand",
     category: "industrial",
     images: [
-      "/images/projects/kashmir-ghee-1.png",
-      "/images/projects/kashmir-ghee-2.jpg",
+      "/images/projects/kashmir-ghee-1.svg",
+      "/images/projects/kashmir-ghee-2.jpeg",
+      "/images/projects/kashmir-ghee-3.jpeg",
     ],
     description:
       "Comprehensive civil and infrastructure works for Kashmir Ghee Mills, including internal road network, cooling tank construction, RO water treatment plant, and associated industrial infrastructure.",

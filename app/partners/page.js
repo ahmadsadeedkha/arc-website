@@ -7,7 +7,6 @@ import { partners } from '@/data/partners'
 export default function PartnersPage() {
   return (
     <main className="min-h-screen">
-
       {/* Hero Banner */}
       <section className="bg-arc-dark py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-br from-arc-dark via-arc-blue/80 to-arc-dark" />
@@ -40,10 +39,10 @@ export default function PartnersPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-              { number: '20+', label: 'Global Partners' },
-              { number: '5+', label: 'Countries' },
-              { number: '15+', label: 'Years of Trust' },
-              { number: '100%', label: 'Client Satisfaction' },
+              { number: "20+", label: "Global Partners" },
+              { number: "5+", label: "Countries" },
+              { number: "15+", label: "Years of Trust" },
+              { number: "100%", label: "Client Satisfaction" },
             ].map((stat, i) => (
               <motion.div
                 key={stat.label}
@@ -51,7 +50,9 @@ export default function PartnersPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
               >
-                <div className="text-3xl font-black text-arc-gold">{stat.number}</div>
+                <div className="text-3xl font-black text-arc-gold">
+                  {stat.number}
+                </div>
                 <div className="text-gray-300 text-sm mt-1">{stat.label}</div>
               </motion.div>
             ))}
@@ -62,7 +63,6 @@ export default function PartnersPage() {
       {/* Partners Grid */}
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
           <div className="text-center mb-16">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -111,12 +111,12 @@ export default function PartnersPage() {
                 className="bg-white border border-gray-100 rounded-xl p-6 flex flex-col items-center justify-center gap-3 hover:border-arc-gold hover:shadow-lg transition-all duration-300 group aspect-square"
               >
                 {partner.logo ? (
-                  <div className="relative w-full h-16">
+                  <div className="relative w-full h-24">
                     <Image
                       src={partner.logo}
                       alt={partner.name}
                       fill
-                      className="object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                      className="object-contain transition-all duration-300"
                     />
                   </div>
                 ) : (
@@ -126,13 +126,9 @@ export default function PartnersPage() {
                     </span>
                   </div>
                 )}
-                <p className="text-xs text-gray-400 text-center font-medium group-hover:text-arc-blue transition-colors duration-300 leading-tight">
-                  {partner.name}
-                </p>
               </motion.div>
             ))}
           </div>
-
         </div>
       </section>
 
@@ -157,8 +153,8 @@ export default function PartnersPage() {
             </h2>
             <p className="text-gray-500 mb-8 text-lg leading-relaxed">
               We are always looking for new partnerships that drive mutual
-              growth and deliver exceptional value. Let's build something
-              great together.
+              growth and deliver exceptional value. Let's build something great
+              together.
             </p>
             <a
               href="mailto:ahmedrafiqueconstructionco@gmail.com"
@@ -169,7 +165,6 @@ export default function PartnersPage() {
           </motion.div>
         </div>
       </section>
-
     </main>
-  )
+  );
 }
