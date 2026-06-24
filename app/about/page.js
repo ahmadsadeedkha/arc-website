@@ -134,7 +134,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-arc-gold text-white px-6 py-4 rounded-xl shadow-lg">
-                <div className="text-2xl font-black">15+</div>
+                <div className="text-2xl font-black">20+</div>
                 <div className="text-xs font-medium">Years Experience</div>
               </div>
             </motion.div>
@@ -149,11 +149,12 @@ export default function AboutPage() {
             >
               <div className="flex items-center gap-3 mb-4">
                 <div className="h-0.5 w-10 bg-arc-gold" />
-                <span className="text-arc-gold text-sm font-semibold tracking-widest uppercase">
+                <span className="text-arc-gold text-xl font-semibold tracking-widest uppercase">
                   CEO Message
                 </span>
+                <div className="h-0.5 w-10 bg-arc-gold" />
               </div>
-              <h2 className="text-4xl font-black text-arc-blue mb-2">
+              <h2 className="text-3xl font-black text-arc-blue mb-2">
                 {ceoMessage.name}
               </h2>
               <p className="text-arc-gold font-medium mb-8">

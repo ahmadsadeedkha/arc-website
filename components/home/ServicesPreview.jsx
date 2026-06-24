@@ -66,7 +66,7 @@ export default function ServicesPreview() {
               viewport={{ once: true }}
               variants={cardVariants}
               whileHover={{ y: -8, transition: { duration: 0.3 } }}
-              className="group relative bg-white border border-gray-100 rounded-xl p-8 shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden cursor-pointer"
+              className="group relative bg-white border border-gray-100 rounded-xl p-6 shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden cursor-pointer"
             >
               {/* Top accent bar */}
               <div className="absolute top-0 left-0 right-0 h-1 bg-arc-gold transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />

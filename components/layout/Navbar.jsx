@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white shadow-lg py-3" : "bg-transparent py-5"
+        scrolled ? "bg-white shadow-lg py-1" : "bg-transparent py-2"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,7 +37,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/">
             <Image
-              src="/images/logo1.png"
+              src="/images/logoARC.png"
               alt="Ahmad Rafique Construction Company"
               width={180}
               height={70}
@@ -61,12 +61,14 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <Link
-            href="/contact"
-            className="hidden md:block bg-arc-gold hover:bg-arc-orange text-white text-sm font-semibold px-5 py-2.5 rounded transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
-          >
-            Get a Quote
+          <Link href="/">
+            <Image
+              src="/images/logo-2-ARC.png"
+              alt="Ahmad Rafique Construction Company"
+              width={180}
+              height={70}
+              className="object-contain"
+            />
           </Link>
 
           {/* Mobile Menu Button */}

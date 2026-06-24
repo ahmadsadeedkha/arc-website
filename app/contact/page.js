@@ -164,7 +164,7 @@ export default function ContactPage() {
                     className="flex items-center gap-2 text-gray-500 text-sm hover:text-arc-gold transition-colors duration-200"
                   >
                     <MessageCircle size={14} className="text-arc-gold" />
-                    0300-8885367 (WhatsApp)
+                    0300-8885367
                   </a>
                 </div>
               </motion.div>

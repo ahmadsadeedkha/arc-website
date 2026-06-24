@@ -140,7 +140,7 @@ export default function Footer() {
                   <MessageCircle size={16} className="text-arc-gold flex-shrink-0 mt-0.5" />
                   
                     <a href="https://wa.me/923008885367" className="text-gray-400 hover:text-arc-gold text-sm transition-colors duration-200">
-                    0300-8885367 (WhatsApp)
+                    0300-8885367
                   </a>
                 </li>
                 <li className="flex gap-3">

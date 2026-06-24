@@ -8,7 +8,7 @@ export const services = [
   },
   {
     id: "structure-design",
-    title: "Structure Design & Analysis",
+    title: "Structure Design/Analysis",
     description:
       "Ahmad Rafique Construction Company provides modified designs and structures according to your need and application with additional value analysis. The overall value engineering process not only makes your project cost effective but also satisfies the project's lifetime projection.",
     icon: "📐",

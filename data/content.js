@@ -23,7 +23,7 @@ export const companyInfo = {
 };
 
 export const ceoMessage = {
-  name: "Engineer Muhammad Shakeel",
+  name: "Engr. Muhammad Shakeel",
   title: "CEO, Ahmad Rafique Construction Company Pvt. Ltd.",
   message: `At Ahmad Rafique Construction Company Pvt. Ltd., we specialize in delivering high-quality industrial and commercial construction solutions that drive business growth and operational excellence. Our focus is on building durable, efficient, and future-ready facilities from factories and warehouses to commercial complexes designed to meet the evolving needs of modern industries. With a commitment to quality, safety and timely delivery, we ensure every project reflects precision engineering and practical functionality. We value long-term partnerships and strive to provide reliable construction services that support our clients' success. As we grow, we remain dedicated to innovation, performance and contributing to strong industrial, commercial and high rise structures.`,
 };

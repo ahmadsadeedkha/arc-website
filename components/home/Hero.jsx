@@ -37,12 +37,13 @@ export default function Hero() {
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
-            className="flex items-center gap-3 mb-6"
+            className="flex items-center justify-center gap-3 mb-6"
           >
             <div className="h-0.5 w-12 bg-arc-gold" />
             <span className="text-arc-gold text-sm font-semibold tracking-widest uppercase">
               Ahmad Rafique Construction
             </span>
+            <div className="h-0.5 w-12 bg-arc-gold" />
           </motion.div>
 
           {/* Main heading */}
@@ -50,7 +51,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-5xl sm:text-6xl lg:text-7xl font-black text-white leading-tight mb-6"
+            className="text-center text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6"
           >
             Crafting
             <span className="text-arc-gold"> Structures,</span>
@@ -67,7 +68,8 @@ export default function Hero() {
             className="text-gray-300 text-lg sm:text-xl leading-relaxed mb-10 max-w-2xl"
           >
             Delivering excellence in industrial and commercial construction.
-            From concept to completion, we build durable, efficient, and
+            <br />
+            From concept to completion, we build durable, efficient and
             future-ready structures.
           </motion.p>
 
@@ -76,17 +78,17 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="flex flex-wrap gap-4"
+            className="flex flex-wrap gap-4 justify-center"
           >
             <Link
               href="/projects"
-              className="bg-arc-gold hover:bg-arc-orange text-white font-semibold px-8 py-4 rounded transition-all duration-300 hover:shadow-xl hover:-translate-y-1 text-base"
+              className="bg-arc-gold hover:bg-arc-orange text-white font-semibold px-4 py-2 rounded transition-all duration-300 hover:shadow-xl hover:-translate-y-1 text-base"
             >
               View Our Projects
             </Link>
             <Link
               href="/contact"
-              className="border-2 border-white hover:border-arc-gold text-white hover:text-arc-gold font-semibold px-8 py-4 rounded transition-all duration-300 text-base"
+              className="border-2 border-white hover:border-arc-gold text-white hover:text-arc-gold font-semibold px-4 py-2 rounded transition-all duration-300 text-base"
             >
               Get a Quote
             </Link>
@@ -97,7 +99,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
-            className="flex flex-wrap gap-12 mt-16 pt-10 border-t border-white/10"
+            className="flex flex-wrap justify-between mt-16 pt-10 border-t border-white/10"
           >
             {[
               { number: "20+", label: "Projects Completed" },

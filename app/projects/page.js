@@ -33,7 +33,7 @@ export default function ProjectsPage() {
               </span>
             </div>
             <h1 className="text-5xl sm:text-6xl font-black text-white">
-              Completed Projects
+              Projects
             </h1>
             <p className="text-gray-300 mt-4 max-w-xl text-lg">
               A showcase of our work across industrial, commercial, and
