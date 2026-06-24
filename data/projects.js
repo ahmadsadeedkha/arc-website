@@ -28,6 +28,20 @@ export const projects = [
       "One of Faisalabad's most expansive commercial developments — a large-scale mixed-use hub demonstrating ARC's capability to deliver high-complexity projects on time.",
   },
   {
+    slug: "classic-atrium",
+    title: "Classic Atrium",
+    location: "Bahria Town, Lahore",
+    area: "287,000 Sft · 17-Story Building",
+    status: "inhand",
+    category: "commercial",
+    images: [
+      "/images/projects/classic-atrium-2.jpg",
+      "/images/projects/classic-atrium-1.svg",
+    ],
+    description:
+      "A prestigious 17-story mixed-use tower in Bahria Town, Lahore. Classic Atrium will redefine the skyline with high-end commercial and residential floors under ARC's full turnkey management.",
+  },
+  {
     slug: "crescent-textile-mills",
     title: "Crescent Textile Mills",
     location: "FADMIC, Faisalabad",
@@ -111,21 +125,6 @@ export const projects = [
       "A premium residential condominium complex at Vady-e-Sitara, Faisalabad, bringing contemporary urban living with landscaped amenities and modern apartment units.",
   },
 
-  // ── In Hand ──────────────────────────────────────────────────────────────
-  {
-    slug: "classic-atrium",
-    title: "Classic Atrium",
-    location: "Bahria Town, Lahore",
-    area: "287,000 Sft · 17-Story Building",
-    status: "inhand",
-    category: "commercial",
-    images: [
-      "/images/projects/classic-atrium-2.jpg",
-      "/images/projects/classic-atrium-1.svg",
-    ],
-    description:
-      "A prestigious 17-story mixed-use tower in Bahria Town, Lahore. Classic Atrium will redefine the skyline with high-end commercial and residential floors under ARC's full turnkey management.",
-  },
   {
     slug: "kashmir-ghee-mills",
     title: "United Industries – Kashmir Ghee Mills",

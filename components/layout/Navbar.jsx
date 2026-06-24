@@ -37,7 +37,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/">
             <Image
-              src="/images/logoARC.png"
+              src="/images/LogoARC.png"
               alt="Ahmad Rafique Construction Company"
               width={180}
               height={70}
@@ -63,7 +63,7 @@ export default function Navbar() {
 
           <Link href="/">
             <Image
-              src="/images/logo-2-ARC.png"
+              src="/images/Logo-2-ARC.png"
               alt="Ahmad Rafique Construction Company"
               width={180}
               height={70}
