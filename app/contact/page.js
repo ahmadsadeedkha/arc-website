@@ -175,21 +175,21 @@ export default function ContactPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.3 }}
-                className="bg-arc-blue rounded-2xl p-6"
+                className="bg-gray-50 rounded-2xl p-6"
               >
                 <div className="flex items-center gap-3 mb-4">
                   <Clock size={18} className="text-arc-gold" />
-                  <h3 className="font-bold text-white">Working Hours</h3>
+                  <h3 className="font-bold text-arc-blue">Working Hours</h3>
                 </div>
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
-                    <span className="text-gray-300">Mon - Sat</span>
-                    <span className="text-white font-medium">
+                    <span className="text-gray-500">Mon - Sat</span>
+                    <span className="text-arc-gold font-medium">
                       9:00 AM - 6:00 PM
                     </span>
                   </div>
                   <div className="flex justify-between text-sm">
-                    <span className="text-gray-300">Sunday</span>
+                    <span className="text-gray-500">Sunday</span>
                     <span className="text-arc-gold font-medium">Closed</span>
                   </div>
                 </div>

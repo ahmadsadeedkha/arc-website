@@ -138,7 +138,9 @@ export default function Footer() {
                     className="text-arc-gold flex-shrink-0 mt-0.5"
                   />
                   <span className="text-gray-400 text-sm leading-relaxed">
-                    7/1, Shan Arcade, Barkat Market, New Garden Town, Lahore.
+                    7/1, Shan Arcade, Barkat Market,
+                    <br />
+                    New Garden Town, Lahore.
                   </span>
                 </li>
                 <li className="flex gap-3">
